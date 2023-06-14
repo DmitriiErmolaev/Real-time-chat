@@ -1,0 +1,35 @@
+.message-container {
+  position:relative;
+  width:fit-content;
+  max-width:65%;
+  padding:7px 15px;
+  margin: 5px 5px 0 auto;
+  border-radius: 20px 7px 7px 20px;
+  box-shadow: 0 0 4px  #438589;
+  background-color: #e2fbfd;
+ 
+  .message__sender-name {
+    position:relative;
+    left:-10px;
+    font-size:0.7rem;
+    font-style:italic;
+  }
+  .message__selectBox {
+    position:absolute;
+    right:4px;
+    top: 4px
+  }
+  
+}
+
+.companion {
+  margin-left: 5px;
+  border-radius: 7px 20px 20px 7px;
+  box-shadow: 0 0 4px  #af3e24;
+  background-color: #ffc9bd;
+}
+.selected {
+  // background-color: #33cdd8;
+  background-color: #33cdd883;
+  // background-color: #9ca6e7;
+}
